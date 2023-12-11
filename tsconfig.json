@@ -1,0 +1,9 @@
+// eslint-disable-next-line
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "outDir": "out",
+    "sourceMap": true
+  }
+}
