@@ -20,9 +20,7 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
-    "sonarjs/cognitive-complexity": ["error", 20],
-    "sonarjs/no-identical-functions": "error",
-    "sonarjs/no-identical-expressions": "error",
+    "sonarjs/cognitive-complexity": ["error", 15],
   },
   plugins: ["prettier", "sonarjs"],
 };
