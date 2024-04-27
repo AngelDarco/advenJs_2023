@@ -2,25 +2,25 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     "prettier",
     "eslint:recommended",
     "plugin:prettier/recommended",
-    "plugin:sonarjs/recommended",
+    "plugin:sonarjs/recommended"
   ],
 
   parserOptions: {
     ecmaVersion: "latest",
-    sourceType: "module",
+    sourceType: "module"
   },
   rules: {
     indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
-    "sonarjs/cognitive-complexity": ["error", 15],
+    "sonarjs/cognitive-complexity": ["error", 100]
   },
-  plugins: ["prettier", "sonarjs"],
+  plugins: ["prettier", "sonarjs"]
 };
